@@ -7,3 +7,6 @@ echo "20.5+5" | bc
 echo "20.5-5" | bc
 echo "20.5*5" | bc
 echo "scale=2;20.5/5" | bc
+
+num=27
+echo "scale=2;sqrt(num)" | bc -l
